@@ -5,16 +5,39 @@
 	<title>Registration form</title>
 	<link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-	<nav>
-		<ul>
-			<li><a href="#" target="_blank">1</a></li>
-			<li><a href="#" target="_blank">2</a></li>
-			<li><a href="#" target="_blank">3</a></li>
-			<li><a href="#" target="_blank">4</a></li>
-			<li><a href="#" target="_blank">5</a></li>
-		</ul>
-		</nav>	
+<body cz-shotcut-listen="true">
+	<div class="container">
+		<!-- <nav>
+			<ul>
+				<li><a href="#" target="_blank">1</a></li>
+				<li><a href="#" target="_blank">2</a></li>
+				<li><a href="#" target="_blank">3</a></li>
+				<li><a href="#" target="_blank">4</a></li>
+				<li><a href="#" target="_blank">5</a></li>
+			</ul>
+			</nav> -->
+		
+		    <form class="reg-form">
+			    <label for="username" class="reg-form_label">username</label>
+			    <input type="text" id="username" placeholder="type your name"
+			    class="reg-form_input">
+		
+			    <label class="reg-form_label">
+			    	password
+			        <input type="password" placeholder="type your password"
+			        class="reg-form_input">	
+			    </label>
+		
+		        <label class="reg-form_label">
+		            <input type="checkbox">
+		            Lorem <span class="blue-text">ipsum<</span> dolor.
+		            </label>
+
+		            <input class="reg-form_input" type="submit" value="Send form"> 
+		        
+		        </form>
+	</div>
+
 </body>
 </html>
 

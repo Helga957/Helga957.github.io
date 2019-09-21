@@ -4,17 +4,52 @@
 	box-sizing: border-box;
 }
 
-body {
-	font-size: 100%;
-	font-family: cens-serif;
+html, body {
+	height: 100%;
 }
 
-a {
-	display:inline-block;
+body {
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+.container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+reg-form {
+	min-width: 290px;
+	max-width: 500px;
+	margin: 0 auto;
+	border: 2px solid #000;
+	border-radius: 7px;
+	padding: 20px;
+}
+
+reg-form_label,
+reg-form_input {
+display: block;
+}
+
+.pass_span {
+display: block;
+} 
+
+.reg-form_label[for="username"], 
+.reg-form_input[type="text"],
+.pass_span{
+margin-bottom: 10px;
+}
+
+
+/*a {
+	display:blok;
 	width:100%;
 	max-width: 300px;
 	min-width:300px;
-	text-align: center;
 	border: 10px solid yellow;
 	border-radius: 5 px;
 	background-color: yellow;
@@ -46,3 +81,4 @@ nav{
 text-align: center;
 padding-top: 1rem;
 }
+*/
