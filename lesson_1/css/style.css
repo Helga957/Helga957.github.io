@@ -11,6 +11,8 @@ html, body {
 body {
 	font-size: 100%;
 	font-family: sans-serif;
+	color: black;
+	padding-top: 20px;
 }
 
 .container {
@@ -29,8 +31,8 @@ reg-form {
 	padding: 20px;
 }
 
-reg-form_label,
-reg-form_input {
+.reg-form_label,
+.reg-form_input {
 display: block;
 }
 
