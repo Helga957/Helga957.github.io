@@ -2,12 +2,13 @@ body {
 	background: rgb(31, 222,219,0.25);
 }
 
-
-/*  не получилось поменять 
-шрифт на заголовке и пропал фон:(
-h1 {
-	font-family: 'Mansalva', cursive;
+@font-face {
+font-family: 'Mansalva', cursive;
 	src: url("../fonts/Mansalva-Regular.ttf");
 }
 
-*/
+h1 {
+	font-family: 'Mansalva', cursive;
+}
+
+
