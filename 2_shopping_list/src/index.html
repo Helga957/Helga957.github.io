@@ -4,34 +4,70 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<title>Shopping List</title>
-	<link rel="shortcut icon" type="image/x-icon" href="assets/fav/favicon.ico">
+	<link rel="shortcut icon" type="image/png" href="./assets/fav/basket.png">
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 	<header>
 	<h1>Список покупок</h1>
-	<img src="img/basket.jpg" alt="basket" class="img">
+	<img class="img" src="img/basket.jpg" alt="basket" >
 	</header>
-	<form>
+	<div class ="parts">
+		<section>
+			<h2>Продукты</h2> <!--ul/ li / span-/ input-->
+ 				<ul>
+					<li><input type="checkbox" id="check1"><label for="check1">Хлеб</label></li>
+					<li><input type="checkbox" id="check2"><label for="check2">Сметана</label></li>
+					<li><input type="checkbox" id="check3"><label for="check3">Помидоры</label></li>
+				</ul>
+		</section>
+		<section>
+			<h2>Еще один блок</h2>
+				<ul>
+					<li><input type="checkbox" id="check4"><label for="check4">Что-то еще</label></li>
+					<li><input type="checkbox" id="check5"><label for="check5">Еще</label></li>
+					<li><input type="checkbox" id="check6"><label for="check6">И еще</label></li>
+				</ul>
+		</section>
+		<button class="btn">
+			<input type="submit" value="Купить">
+		</button>
+	</div>
+
+<script src="js/bundle.js"></script>
+<body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--
+
 		<fieldset>
-		<legend>Продукты</legend>
+		<legend></legend>
 		<input type="checkbox" id="check1"><label for="check1">Хлеб</label>
 		<input type="checkbox" id="check2"><label for="check2">Сметана</label>
 		<input type="checkbox" id="check3"><label for="check3">Помидоры</label>
 		</fieldset>
-	</form>
-	<form>
-	<fieldset>
+		<fieldset>
 		<legend>Еще один блок</legend>
 		<input type="checkbox" id="check4"><label for="check4">Что-то еще</label>
 		<input type="checkbox" id="check5"><label for="check5">Еще</label>
 		<input type="checkbox" id="check6"><label for="check6">И еще</label>
 	</fieldset>
-	</form>
-	<form>
-		<button>Купить</button>
-		<input type="submit">
-	</form>
-	<!-- <script src="js/bundle.js"></script> -->
-	</body>
-	</html>
+
+
+
+	class="red">Купить</button>
+<!
+		<input type="submit" value="Купить">
+-->

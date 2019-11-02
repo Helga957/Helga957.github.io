@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	in-height: 100vh;
+}
+
+body {
+	background-color: rgba(31, 222, 219, 0.25);
+	padding: 5px;
+}
+
+@font-face {
+	font-family: 'Mansalva';
+	src: url(./assets/fonts/Mansalva-Regular.ttf);
+}
+
+h1 {
+	font-family: 'Mansalva', cursive;
+}
+
+.parts {
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.img {
+    width: 70px;
+}
+
+form {
+margin-bottom: 20px;
+}
+
+label {
+	display: block;
+}
+
+.btn {
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body:not(:last-child) {
+	padding: 10px;
+}
+
+padding-left: 20 px;
+
+
+
+header, div {
+	height: 200px; /* Высота блока */  /*
+    width: 200px; /* Ширина блока */  /*
+    padding-left: 15px; /* Отступ от текста слева *//*
+    margin-bottom: 20px;/*
+}
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body :last child
+
+li:not(:last-child):after {
+    content:' |';
+text-align: center;
+
+body:not(:last-child):after {
+    content:' |';
+
+
+
+
+.form non last child 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
